@@ -86,3 +86,96 @@
 			</div>
 		</div>
     </div> -->
+
+
+
+    <div class="statistics">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1>الإحصائيات</h1>
+					<p>تغطي الجمعية 11 مدينة وقرية ( المجمعة - حرمه - الأرطاوية وقراها</p>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid  statistic__counter">
+
+			<div class="statitic">
+				<div class="number">
+                {{ $data['number']->value_1 }}
+                </div>
+
+                {{ $data['number']->field_1}}
+			</div>
+
+
+
+			<div class="statitic">
+				<div class="number">
+                {{ $data['number']->value_2 }}
+                </div>
+
+                {{ $data['number']->field_2}}
+            </div>
+
+			<div class="statitic">
+				<div class="number">
+					3
+				</div>عدد الحلقات بنين وبنات
+			</div>
+			<div class="statitic">
+				<div class="number">
+				4
+				</div>عدد المعلمين والمعلمات
+			</div>
+
+			<div class="statitic">
+				<div class="number">
+					5
+				</div>عدد المجمعات القرآنية
+			</div>
+
+			<div class="statitic">
+				<div class="number">
+					6
+				</div>عدد الدور النسائية
+			</div>
+
+
+			<div class="statitic">
+				<div class="number">
+					7
+				</div>عدد الحلقات بنين وبنات
+			</div>
+
+			<div class="statitic">
+				<div class="number">
+					8
+				</div>عدد المعلمين والمعلمات
+			</div>
+
+			<div class="statitic">
+				<div class="number">
+					9
+				</div>عدد المعلمين والمعلمات
+			</div>
+			<div class="statitic">
+				<div class="number">
+				10
+				</div>عدد المعلمين والمعلمات
+			</div>
+
+			<div class="statitic">
+				<div class="number">
+				11
+				</div>عدد المعلمين والمعلمات
+			</div>
+
+			<div class="statitic">
+				<div class="number">
+				12
+				</div>عدد المعلمين والمعلمات
+			</div>
+
+		</div>
+	</div>
