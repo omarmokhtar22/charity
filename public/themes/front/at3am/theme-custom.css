@@ -1,0 +1,41 @@
+@import url("styles/themes/theme-viki.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;700;800;900&display=swap');
+
+.factory-flag{ visibility: hidden; }
+.counterback {
+    background-color: #63ab43 !important;
+    
+}
+.counterback2 {
+    background-color: #046739 !important;
+
+}
+
+.counterback , .counterback2 {
+    color: #fff !important;
+}
+
+.contactback {
+    background-color: #63ab43 !important;
+
+}
+
+.contactback2 , .contactback2 a {
+    direction: rtl !important;
+    color: #fff !important;
+
+}
+
+.rtl {
+    direction: rtl !important;
+}
+.newsbody , .newsbody p{
+    font-size: 16px !important;
+    font-family: dubai !important;
+    font-weight: 500;
+    
+}
+
+.imgsize {
+    max-height: 500px;
+}
