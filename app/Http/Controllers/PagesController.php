@@ -10,6 +10,6 @@ class PagesController extends Controller
     public function index($id,$slug)
     {
         $page = Page::findorfail($id);
-        return view('front.at3am.page',compact('page'));
+        return view('front.quran.page',compact('page'));
     }
 }

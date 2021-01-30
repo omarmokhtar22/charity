@@ -5,7 +5,7 @@
 		<div class="container">
 			<div class="row align-items-center d-flex justify-content-between">
 				<div class="col-md-3 col-sm-12 portal-logo animate__animated animate__fadeInDown animate__slow animate__delay-3s">
-					<a href="#"><img alt="ee" src="{{ asset('themes/front/quran')}}/images/logo.svg"></a>
+					<a href="#"><img alt="ee" src="{{ asset('uploads/'.$shareddata['contact']->logo)}}"></a>
 				</div>
 				<div class="col-md-9 col-xs-12 left__area portal-logo animate__animated animate__fadeInLeft animate__slow  animate__delay-4s">
 					<div class="socialmediaTop">

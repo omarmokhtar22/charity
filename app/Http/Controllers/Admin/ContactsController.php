@@ -39,19 +39,39 @@ class ContactsController extends Controller
      */
     public function store(Request $request)
     {
-      // dd($request->all());
         $number = Contact::findorfail(1);
-        $number->Update([
-            'phone' => $request->phone,
-            'address' => $request->address,
-            'email' => $request->email,
-            'whatsapp' => $request->whatsapp,
-            'telegram' => $request->telegram,
-            'youtube' => $request->youtube,
-            'twitter' => $request->twitter,
-            'facebook' => $request->facebook,
-            'map' => $request->map,
-        ]);
+        if($request->pimage)
+        {
+            $picture = $request->pimage;
+            $picture_new_name= time().$picture->getClientOriginalName();
+            $picture->move('uploads/',$picture_new_name);
+
+            $number->Update([
+                'phone' => $request->phone,
+                'address' => $request->address,
+                'email' => $request->email,
+                'whatsapp' => $request->whatsapp,
+                'telegram' => $request->telegram,
+                'youtube' => $request->youtube,
+                'twitter' => $request->twitter,
+                'facebook' => $request->facebook,
+                'map' => $request->map,
+                'logo'=> $picture_new_name,
+            ]);
+        }
+        else {
+            $number->Update([
+                'phone' => $request->phone,
+                'address' => $request->address,
+                'email' => $request->email,
+                'whatsapp' => $request->whatsapp,
+                'telegram' => $request->telegram,
+                'youtube' => $request->youtube,
+                'twitter' => $request->twitter,
+                'facebook' => $request->facebook,
+                'map' => $request->map,
+            ]);
+        }
         return redirect()->back();
     }
 

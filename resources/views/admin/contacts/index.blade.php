@@ -99,6 +99,17 @@
                     @enderror
                   </div>
                   
+                  <div class="form-group">
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input"  name="pimage" >
+                      <label  class="custom-file-label news_img" for="customFile">اختر صوره</label>
+                      @error('pimage')
+                      <span class="invalid-feedback" role="alert">
+                          <strong>{{ $message }}</strong>
+                      </span>
+                    @enderror
+                    </div>
+                  </div>
                 </div>
                 <!-- /.card-body -->
 
