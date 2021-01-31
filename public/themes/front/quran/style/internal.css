@@ -1,0 +1,233 @@
+.intenal_hero{
+    background: url('../images/internalheader.png') no-repeat center center ;
+    width: 100%;
+height: 50vh;
+overflow: hidden;
+position: relative;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+
+
+.intenal_hero h1{
+    color:#fff;
+    font-weight: 900;
+    margin-top: 15%;
+}
+
+
+
+.intenal_hero .breadcrumbcustom{
+    color:#fff;
+}
+.intenal_hero .breadcrumbcustom a {
+    color:#fff;
+    font-size: 12px;
+}
+
+.intenal_hero .breadcrumbcustom a.active{
+    color:#6be8e2;
+}
+
+.pagesContent {
+    background: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(5, 3, 3,0.1);
+    padding: 15px;
+    margin-bottom: 30px;
+
+}
+
+.newsarchive .card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+
+.newsarchive .card-text{
+    text-align: justify;
+    font-size: 11px;
+    color: #9a9a9a;
+}
+
+.newsarchive .card-title{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.newsarchive .card{
+    box-shadow: 0 0.5rem 1rem rgba(78, 78, 78,0.3);
+    margin-bottom: 20px;
+}
+
+.newsarchive .carousel-item{
+    height: 600px;
+    overflow: hidden;
+
+}
+
+.newsarchive .newsdate{
+    margin: 20px 0;
+    color:#9a9a9a;
+
+}
+
+
+.newsarchive .news__detailsP{
+    text-align: justify;
+    line-height: 35px;
+}
+
+
+
+
+
+.newsarchive .round-wrap {
+    background: #ef5727;
+    border-radius: 42% 8% 60% 95%;
+    width: 30%;
+    height: 270px;
+    -webkit-animation: morph 6s linear infinite;
+            animation: morph 6s linear infinite;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    outline: 1px solid transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    vertical-align: middle;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    margin-left: 50px;
+  }
+  
+  .newsarchive .round-animation {
+    display: block;
+    width: 360px;
+    height: 310px;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    z-index: 9999;
+    border-radius: 72% 8% 71% 25%;
+    border-bottom: 15px solid #fff;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  .newsarchive .round-animation img {
+      
+    width: 100%;
+    height: 350px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .newsarchive .news__title p {
+    font-size: 25px;
+    text-align: justify;
+    line-height: 2;
+  }
+  
+  .newsarchive .news__title span {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  
+  .newsarchive .shackname {
+    font-size: 16px;
+    color: #7dc242;
+    font-weight: 600;
+  }
+
+.Pagination .page-link{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    background: #e7e7e7;
+    color: #908e8e;
+}
+
+.Pagination .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #7dc242;
+    border-color: #7dc242;
+}
+
+
+.Pagination .page-item:last-child .page-link {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    border: none;
+    border-radius: 5px;
+    width: 61px;
+    font-size: 12px;
+}
+
+.Pagination .page-item:first-child .page-link {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    border: none;
+    border-radius: 5px;
+    width: 61px;
+    font-size: 12px;
+}
+
+.support .bankLogo{
+    background: #6be7e2;
+    position: absolute;
+    top: -26px;
+    width: 170px;
+
+}
+
+.support .bankLogo img{
+    width: 100%;
+}
+.bankcontainer{
+    background: #f9f9f9;
+    box-shadow: 0 0.5rem 1rem rgba(5, 3, 3,0.1);
+    padding: 25px;
+}
+
+.bankdetails span{
+    color:#1b4297
+}
+
+.bankdetails{
+    color: #000;
+    font-weight: 900;
+    width: 30%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.blankpage h3{
+    background: #222242;
+    padding: 15px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.blankpage p{
+    text-align: justify;
+    line-height: 34px;
+}
