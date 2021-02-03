@@ -28,7 +28,7 @@
 											<img alt="First slide" class="" src="{{ asset('uploads/news')}}/{{$news->image}}">
 											<div class="news__title">
                                                 <p>{{$news->title}}</p>
-                                                <a class="btn green_btn animate__animated animate__fadeInDown animate__slow" href="">تفاصيل الخبر</a>
+                                                <a class="btn green_btn animate__animated animate__fadeInDown animate__slow" href="/news/view/{{ $news->id}}">تفاصيل الخبر</a>
 											</div>
 										</div>
 										<?php $i++ ?>
@@ -46,7 +46,7 @@
                                 </div>       
                             <a class="carousel-control-prev" data-slide="prev" href="#news__carousal" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a>
                              <a class="carousel-control-next" data-slide="next" href="#news__carousal" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
-							</div><a class="btn orange_btn animate__animated animate__fadeInLeft animate__slow mt-5 float-left" href="">ارشيف الاخبار</a>
+							</div><a class="btn orange_btn animate__animated animate__fadeInLeft animate__slow mt-5 float-left" href="/news">ارشيف الاخبار</a>
                         </div>
                         <!--end news -->
 						<div aria-labelledby="photo-tab" class="tab-pane fade" id="photo" role="tabpanel">
@@ -78,7 +78,7 @@
                                     </div>
                                     <a class="carousel-control-prev" data-slide="prev" href="#photo__carousal" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#photo__carousal" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
 								</div>
-								<a class="btn orange_btn animate__animated animate__fadeInLeft animate__slow mt-5 float-left" href="">ارشيف الصور</a>
+								<a class="btn orange_btn animate__animated animate__fadeInLeft animate__slow mt-5 float-left" href="/gallary">ارشيف الصور</a>
 							</div><!--end news -->
 						</div>
 						<div aria-labelledby="video-tab" class="tab-pane fade" id="video" role="tabpanel">

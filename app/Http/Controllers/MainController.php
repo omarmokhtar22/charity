@@ -47,4 +47,16 @@ class MainController extends Controller
 
         return back()->with('success', 'We have received your message and would like to thank you for writing to us.');
     }
+
+    public function gallary()
+    {
+        $photos = Photo::paginate(5);
+        return view('front.quran.gallary',compact('photos'));
+    }
+
+    public function sayabout()
+    {
+        $reviews = Review::paginate(5);
+        return view('front.quran.sayabout',compact('reviews'));
+    }
 }

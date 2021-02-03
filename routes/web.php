@@ -17,10 +17,13 @@ use Illuminate\Support\Facades\Route;
     return view('welcome');
 });*/
 Route::get('/','MainController@index');
+Route::get('/gallary','MainController@gallary');
+Route::get('/sayabout','MainController@sayabout');
 Route::post('/sendemail','MainController@sendemail')->name('sendemail');
 
 Route::get('/news','NewsController@index');
 Route::get('/news/view/{post}','NewsController@view');
+
 Route::get('/pages/{id}/{slug}','PagesController@index');
 Route::get('/reviews','ReviewsController@index');
 Auth::routes();
